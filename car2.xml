@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<?xml-stylesheet type="text/xsl" href="car.xslt" ?>
+<!-- Created with Liquid Technologies Online Tools 1.0 (https://www.liquid-technologies.com) -->
+<cardata xsi:noNamespaceSchemaLocation="carSchema.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <car id="100!!$#%^$^">
+    <companyname>string</companyname>
+    <model>string</model>
+    <engine>string</engine>
+    <mileage>string</mileage>
+  </car>
+  <car id="string">
+    <companyname>string</companyname>
+    <model>string</model>
+    <engine>string</engine>
+    <mileage>string</mileage>
+  </car>
+</cardata>

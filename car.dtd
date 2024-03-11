@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!ELEMENT cardata (car*)>
+<!ELEMENT car(companyname,model,engine,mielage)>
+<!ATTLIST car id CDATA #REQUIRED>
+<!ELEMENT companyname(#PCDATA)>
+<!ELEMENT model(#PCDATA)>
+<!ELEMENT engine(#PCDATA)>
+<!ELEMENT mileage(#PCDATA)>

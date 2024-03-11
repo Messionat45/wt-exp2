@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- including xslt file for stying -->
+<?xml-stylesheet type="text/xsl" href="car.xslt" ?>
+
+<!-- including DTD file for validation -->
+<!DOCTYPE cardata SYSTEM "./ car.dtd" > 
+
+<!-- including schema def file for validation .xsd -->
+<cardata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="./carSchema.xsd"> 
+
+    <car id="100">
+        <companyname>BMW</companyname>
+        <model>X5</model>
+        <engine>3.0L Turbo inline 6-cylinder</engine>
+        <mileage>12kmpl</mileage>
+    </car>
+    <car id="101">
+        <companyname>Tata</companyname>
+        <model>Tiago</model>
+        <engine>1.2 L, 3-cylinder</engine>
+        <mileage>19.4kmpl</mileage>
+    </car>
+    <car id="102">
+        <companyname>Renault</companyname>
+        <model>Kwid</model>
+        <engine>1.0 L 3-cylinder</engine>
+        <mileage>22kmpl</mileage>
+    </car>
+    <car id="103">
+        <companyname>Maruti Suzuki</companyname>
+        <model>Brezza</model>
+        <engine>1.5 L 4 cylinder </engine>
+        <mileage>19.4kmpl</mileage>
+    </car>
+</cardata>
+
